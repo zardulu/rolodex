@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+out/
+
+# Dependency directory
+bower_components/
+
+# Sensitive or environment-specific files
+config/*.js
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
