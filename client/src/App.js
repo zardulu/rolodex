@@ -9,7 +9,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1); // State for pagination
   const [usersPerPage] = useState(6); 
   const [searchTerm, setSearchTerm] = useState('');
-  const [expandedCardId, setExpandedCardId] = useState(null);
+
 
   // Fetch user data from an API when the component mounts
   useEffect(() => {
@@ -41,10 +41,6 @@ function App() {
     );
 
     setFilteredUsers(filteredUsers);
-  };
-
-  const handleExpandCard = (cardId) => {
-    setExpandedCardId(cardId);
   };
 
   return (
